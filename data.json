@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Yourname": "joo",
+      "paswrd": "12345",
+      "dimends": 10115,
+      "onday": 22,
+      "colictingin": 1666976009552
+    },
+    {
+      "id": 2,
+      "Yourname": "ahmed",
+      "paswrd": "246810",
+      "dimends": 0,
+      "onday": 1,
+      "colictingin": 1
+    },
+    {
+      "id": 3,
+      "Yourname": "ahmed",
+      "paswrd": "2468103",
+      "dimends": 0,
+      "onday": 1
+    }
+  ]
+}

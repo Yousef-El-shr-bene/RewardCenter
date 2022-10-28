@@ -1,0 +1,326 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+  scroll-behavior: smooth;
+  
+}
+.Heder{
+  background-color:  whitesmoke;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  border-bottom: 5px solid blueviolet;
+  border-radius: 0px 0px 20% 20%;
+}
+.faUser{
+  height: 36%;
+  background-color: silver;
+  padding: 10px;
+  border-radius: 25%;
+}
+.faUser path{
+  color: black;
+}
+.contener2{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  margin: 10px;
+  height: 50%;
+  transition: 0.7s ease;
+}
+.icon path{
+  color: black;
+}
+.icon:hover{
+  margin-top: 20px;
+}
+.Body{
+  width: 90%;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr) ;
+  grid-template-rows: repeat(5, 1fr);
+  place-items: center;
+  height: 300px;
+  border-radius: 5px;
+  gap: 4% 2%;
+}
+.Body-div{
+  height: 100%;
+  width: 100%;
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
+.main-dimend-banal{
+  border-radius: 3%;
+  height: 200px;
+  width: 47%;
+  margin-top: 70px;
+  background-color: rgb(56, 122, 244);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.RewardCenter-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+.h3-Body{
+  color: antiquewhite;
+  font-size: 300%;
+}
+.Body-icon{
+  margin-top: 5%;
+  height: 30px;
+}
+.h2-Body{
+  color: antiquewhite;
+  font-size: 200%;
+}
+.Body-icon path{
+
+color: antiquewhite;
+
+}
+.faMoneyCheckDollar{
+  margin-bottom: 0px;
+}
+.faGem path{
+  color: black;
+  transition: 0.3s ease;
+
+}
+.faMoneyCheckDollar path{
+  color: black;
+}
+.h3{
+  color: black;
+
+}
+.h5{
+  margin: 20px;
+}
+.Body-div{
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  transition: 0.7s ease;
+}
+.Body-div2{
+  background-color: #3861fb;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  transition: 0.7s ease;
+}
+.h5-{
+  color: white;
+}
+.faGem-black path{
+  color: white;
+}
+.Body-div:hover{
+  height: 110%;
+  width: 110%;
+  background-color: #3a99ff;
+  color: aliceblue;
+}
+.Body-div2:hover{
+  height: 110%;
+  width: 110%;
+}
+.contener1{
+  width: 100%;
+  height: 1000px;
+  background-color: #3a99ff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 25%;
+}
+.grid-contener{
+  width: 90%;
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+  grid-template-rows: repeat(5, 1fr);
+  place-items: center;
+  height: 520px;
+  border-radius: 5px;
+}
+.grid-contener-div{
+  border: 2px solid #eff2f5;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.svg-w{
+  position: absolute;
+  top: 610px;
+  z-index: -1;
+}
+.icon-{
+  height:  30px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.grid-contener-div p{
+  font-weight: 800;
+  font-size: x-large;
+}
+.big{
+  height: 100%;
+  width: 100%;
+}
+.pay-btn{
+  background-color: rgb(56, 122, 244);
+  border-radius: 8px;
+  width: 70px;
+  height: 30px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s ease;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.p-p{
+  margin-left: 20px;
+}
+.pay-btn:hover{
+  border-radius: 25px;
+  width: 80px;
+  height: 30px;
+}
+.border1{
+  border-radius: 0px 0px 0px 20px;
+}
+.border2{
+  border-radius: 0px 0px 20px 0px;
+}
+.border3{
+  border-radius: 0px 20px 0px 0px;
+}
+.border4{
+  border-radius: 20px 0px 0px 0px;
+}
+.login-contener{
+  display: flex;
+  flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.login-child{
+  /* border: 1px solid black; */
+  margin: 100px;
+  border-radius: 5px;
+  background-color: rgb(56, 122, 244);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.input-text{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login-dimend{
+  margin-top: 20px;
+  height: 150px;
+}
+.login-dimend path{
+  color: #3861fb;
+}
+.login-btn{
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-div{
+  display: flex;
+}
+.red-banal{
+  background-color: red;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.idonutnow{
+  display: flex;
+  flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.floting_btn{
+  /* position: absolute; */
+  padding:1px 5px;
+  background-color: #4CAF50;
+  border-radius: 4px;
+  color: #eff2f5;
+  /* z-index: -1; */
+  transition: 0.7s ease;
+}
+.floting_btn:hover{
+  padding:2px 10px;
+}
