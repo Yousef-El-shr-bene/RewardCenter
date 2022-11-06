@@ -13,7 +13,7 @@ export const RewardCenter = ()=>{
         function datenaw() {
             return Date.now()
         }
-        if (window.localStorage.colictingin > datenaw()) {
+        if (window.localStorage.colictingin < datenaw()) {
                 console.log("yasss");
             setdimends(dimends + daysReword[todayRewrd-1])
             window.localStorage.dimends = dimends + daysReword[todayRewrd-1]

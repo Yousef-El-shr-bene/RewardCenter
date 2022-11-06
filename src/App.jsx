@@ -64,7 +64,7 @@ function App() {
     if (bodylenth === "") {
       
     }else{
-    let newuser = {id: bodylenth.length +1 ,Yourname: `${inputvalue[0]}`,paswrd:`${inputvalue[1]}`,dimends:0,onday:1};
+    let newuser = {id: bodylenth.length +1 ,Yourname: `${inputvalue[0]}`,paswrd:`${inputvalue[1]}`,dimends:0,onday:1,colictingin:Date.now()};
     let newuser1 = JSON.stringify(newuser)
     POST(newuser1,"http://localhost:3000/users")
     window.localStorage.setItem("id",[bodylenth.length +1])
@@ -83,7 +83,7 @@ function App() {
   <>
   <Routes> 
 
-  <Route path="/" element={<><Login inputvalue={inputvalue} setinputvalue={setinputvalue} submiting={submiting} rong={rong} setrong={setrong} username={username} loging={loging} /></>} />
+  <Route path="/" element={<Login inputvalue={inputvalue} setinputvalue={setinputvalue} submiting={submiting} rong={rong} setrong={setrong} username={username} loging={loging} />} />
   <Route path="/RewardCenter" element={<Menapp/>} />
 
   </Routes>
